@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Build
+        run: echo "Build completado"
+
+      - name: Test
+        run: echo "Tests completados"
+
+      - name: Lint
+        run: echo "Lint completado"
+
+      - name: Deploy a Staging
+        run: echo "Deploy a ambiente staging"
