@@ -1,0 +1,11 @@
+{
+  "name": "comercializadora-santa-cruz",
+  "version": "1.0.0",
+  "description": "Proyecto SCM para Comercializadora Santa Cruz",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "echo Build completado",
+    "test": "echo Test completado",
+    "lint": "echo Lint completado"
+  }
+}

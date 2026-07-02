@@ -1,0 +1,3 @@
+# Arquitectura
+
+Arquitectura cliente-servidor.
