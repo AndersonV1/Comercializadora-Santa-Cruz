@@ -9,3 +9,6 @@ Proyecto desarrollado para la materia Ingeniería de Software.
 - GitHub Actions
 - JavaScript
 - Node.js
+## Módulos del sistema
+
+- Inicio de sesión de usuarios.
